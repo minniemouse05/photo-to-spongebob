@@ -8,9 +8,9 @@ from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 #train_dir = 'data/train'
-train_dir = '/Users/fliang/Desktop/archive/train'
+train_dir = '/Users/fliang/Desktop/facial_emotions/train'
 #val_dir = 'data/test'
-val_dir = '/Users/fliang/Desktop/archive/test'
+val_dir = '/Users/fliang/Desktop/facial_emotions/test'
 
 train_datagen = ImageDataGenerator(rescale=1./255)
 val_datagen = ImageDataGenerator(rescale=1./255)
