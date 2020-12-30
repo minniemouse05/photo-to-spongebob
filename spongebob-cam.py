@@ -110,9 +110,9 @@ if __name__ == '__main__':
 
     root=tk.Tk()
     
-    img = ImageTk.PhotoImage(Image.open("/Users/fliang/Desktop/logo.png"))
-    heading = Label(root,image=img,bg='white')
-    heading.pack()
+    #img = ImageTk.PhotoImage(Image.open("/Users/fliang/Desktop/logo.png"))
+    #heading = Label(root,image=img,bg='white')
+    #heading.pack()
     
     heading2=Label(root,text="Photo to Spongebob",pady=20, font=('Times New Roman',45,'bold'),bg='white',fg='black')                                 
     heading2.pack()
