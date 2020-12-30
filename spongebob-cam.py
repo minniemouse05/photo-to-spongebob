@@ -40,30 +40,13 @@ cv2.ocl.setUseOpenCL(False)
 emotion_dict = {0: "   Angry   ", 1: "Disgusted", 2: "  Fearful  ", 3: "   Happy   ", 4: "  Neutral  ", 5: "     Sad    ", 6: "Surprised"}
 
 
-emoji_dist={0:"/Users/fliang/Desktop/emojis/angry.png",
-            1:"/Users/fliang/Desktop/emojis/disgusted.png",
-            2:"/Users/fliang/Desktop/emojis/fearful.png",
-            3:"/Users/fliang/Desktop/emojis/happy.png",
-            4:"/Users/fliang/Desktop/emojis/neutral.png",
-            5:"/Users/fliang/Desktop/emojis/sad.png",
-            6:"/Users/fliang/Desktop/emojis/surpriced.png"}
-
-
-emoji_dist={0:"/Users/fliang/Desktop/emojis_sb/angry_sb.png",
-            1:"/Users/fliang/Desktop/emojis_sb/disgusted_sb.png",
-            2:"/Users/fliang/Desktop/emojis_sb/fearful_sb.png",
-            3:"/Users/fliang/Desktop/emojis_sb/happy_sb.jpg",
-            4:"/Users/fliang/Desktop/emojis_sb/neutral_sb.jpg",
-            5:"/Users/fliang/Desktop/emojis_sb/sad_sb.png",
-            6:"/Users/fliang/Desktop/emojis_sb/surpriced_sb.png"}
-
-emoji_dist={0:"/Users/fliang/Desktop/emojis_cc/sb_angry.png",
-            1:"/Users/fliang/Desktop/emojis_cc/sb_disgusted.png",
-            2:"/Users/fliang/Desktop/emojis_cc/sb_fearful.png",
-            3:"/Users/fliang/Desktop/emojis_cc/sb_happy.png",
-            4:"/Users/fliang/Desktop/emojis_cc/sb_neutral.png",
-            5:"/Users/fliang/Desktop/emojis_cc/sb_sad.png",
-            6:"/Users/fliang/Desktop/emojis_cc/sb_surpriced.png"}
+emoji_dist={0:"/Users/fliang/Desktop/spongebob-images/sb_angry.png",
+            1:"/Users/fliang/Desktop/spongebob-images/sb_disgusted.png",
+            2:"/Users/fliang/Desktop/spongebob-images/sb_fearful.png",
+            3:"/Users/fliang/Desktop/spongebob-images/sb_happy.png",
+            4:"/Users/fliang/Desktop/spongebob-images/sb_neutral.png",
+            5:"/Users/fliang/Desktop/spongebob-images/sb_sad.png",
+            6:"/Users/fliang/Desktop/spongebob-images/sb_surpriced.png"}
 
 global last_frame1                                    
 last_frame1 = np.zeros((480, 640, 3), dtype=np.uint8)
